@@ -7,11 +7,15 @@
     "start": "webpack-dev-server --open"
   },
   "babel": {
-    "presets": [ "env", "react" ]
+    "presets": [
+      "env",
+      "react"
+    ]
   },
   "author": "charlie",
   "license": "MIT",
   "dependencies": {
+    "prop-types": "^15.5.8",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
