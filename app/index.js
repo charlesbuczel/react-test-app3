@@ -2,7 +2,6 @@ const React = require('react');
 const ReactDom = require('react-dom');
 const PropTypes = require('prop-types');
 
-
 class Badge extends React.Component {
   render () {
     return(
@@ -12,7 +11,7 @@ class Badge extends React.Component {
           alt='Avatar'
           style={{width: 100, height: 100}}
         ></img>
-        <h1>Name: {this.props.name}</h1>>
+        <h1>Name: {this.props.name}</h1>
         <h3>username: {this.props.username}</h3>
       </div>
     );
